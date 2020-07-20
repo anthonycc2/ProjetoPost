@@ -6,6 +6,7 @@ public class Comentario {
 
 	public Comentario(Usuario usuario, String texto) {
 		this.texto = texto;
+		this.usuario = usuario;
 	}
 	
 	public String getTexto() {
